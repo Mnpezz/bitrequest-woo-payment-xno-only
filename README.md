@@ -1,5 +1,3 @@
-Here's an updated version of your README, aligned with the structure of the original fork:
-
 # WooCommerce BitRequest Payment Gateway for XNO
 
 ## Description
