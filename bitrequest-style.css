@@ -1,0 +1,78 @@
+.bitrequest-payment-option {
+    margin-bottom: 15px;
+}
+
+.bitrequest-payment-option label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.bitrequest-payment-option select {
+    display: inline-block;
+    width: auto;
+}
+
+.br_checkout, .br_retry {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0073aa;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.br_checkout:hover, .br_retry:hover {
+    background-color: #005177;
+}
+
+.br_retry {
+    background-color: #f0ad4e;
+}
+
+.br_retry:hover {
+    background-color: #ec971f;
+}
+
+.bitrequest-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+}
+
+.bitrequest-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 600px;
+    height: 80%;
+    background: white;
+    z-index: 9999;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bitrequest-popup iframe {
+    width: 100%;
+    height: calc(100% - 40px);
+    border: none;
+}
+
+.bitrequest-close {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
